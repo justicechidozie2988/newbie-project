@@ -68,6 +68,9 @@ body {
 
 /* media query */
   @media (min-width: 370px) {
+      body {
+       align-items: center;   
+      }
     img {
       height: 220.35203552246094px;
       width: 286.829833984375px;
