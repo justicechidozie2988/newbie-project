@@ -67,7 +67,7 @@ body {
   }
 
 /* media query */
-  @media (min-width: 320px) and (max-width: 480px) {
+  @media (min-width: 370px) {
     img {
       height: 220.35203552246094px;
       width: 286.829833984375px;
