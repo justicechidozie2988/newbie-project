@@ -65,3 +65,34 @@ body {
     cursor: pointer;
 
   }
+
+/* media query */
+  @media (min-width: 320px) and (max-width: 480px) {
+    img {
+      height: 220.35203552246094px;
+      width: 286.829833984375px;
+      left: 44px;
+      top: 109px;
+    }
+
+    h1 {
+      height: 142px;
+      width: 350px;
+      left: 24px;
+      top: 407px;
+    }
+
+    p {
+      height: 81px;
+      width: 328px;
+      left: 23px;
+      top: 579px;
+    }
+
+    .btn {
+      height: 68px;
+      width: 216px;
+      left: 24px;
+      top: 726px;
+    }
+  }
