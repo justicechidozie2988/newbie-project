@@ -26,34 +26,26 @@ body {
   }
   
   h1 {
-    height: 190px;
-    width: 586px;
-    left: 735px;
-    top: 265px;
-    font-family: "Poppins";
-    font-size: 64px;
-    font-weight: 700;
-    line-height: 95px;
+     font-size: 48px;
+    line-height: 71px;
     letter-spacing: -0.035em;
     text-align: left;
-    margin-left: 100px;
-    
-    
+    height: 142px;
+    width: 350px;
+    margin-top: 60px; 
   }
 
 /* paragraph */
   p {
-    height: 108px;
-    width: 381px;
-    left: 736px;
-    top: 491px;
-    font-family: "san-serif";
-    font-size: 24px;
+    font-size: 18px;
     font-weight: 400;
-    line-height: 36px;
+    line-height: 27px;
     letter-spacing: -0.035em;
     text-align: left;
-    margin-left: 100px;
+    color: #4f4f4f;
+    height: 81px;
+    width: 328px;
+    margin-top: 30px;
   }
 
  /* Button */
