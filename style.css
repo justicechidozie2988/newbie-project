@@ -1,102 +1,117 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    font-family: "Poppins", sans-serif;
-    background-color: #FFFFFF;
-  }
-   /* main-container */
-  .wrapper {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: auto;
-    flex-direction: column;
-  }
+  font-family: "Poppins", sans-serif;
+  background-color: #FFFFFF;
+}
+
+nav {
+  height: 25px;
+  width: 133px;
+  border-radius: 0px;
+  font-family: "Inconsolata";
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 25px;
+  letter-spacing: -0.08em;
+  text-align: left;
+}
+ /* main-container */
+.wrapper {
+  display: flex;
+  margin: auto;
+  flex-direction: column;
+}
 
 /* image */
-   img {
-    height: 238.00001525878906px;
-    width: 286.829833984375px;
-    left: 77px;
-    top: 265px;
-  }
-  
-  h1 {
-     font-size: 48px;
-    line-height: 71px;
-    letter-spacing: -0.035em;
-    text-align: left;
-    height: 142px;
-    width: 350px;
-    margin-top: 60px; 
-  }
+ img {
+  height: 238.00001525878906px;
+  width: 286.829833984375px;
+}
+
+h1 {
+   font-size: 48px;
+  line-height: 71px;
+  letter-spacing: -0.035em;
+  text-align: left;
+  height: 142px;
+  width: 350px;
+  margin-top: 60px; 
+}
 
 /* paragraph */
-  p {
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 27px;
-    letter-spacing: -0.035em;
-    text-align: left;
-    color: #4f4f4f;
-    height: 81px;
-    width: 328px;
-    margin-top: 30px;
-  }
-
- /* Button */
-  .btn {
-    background-color: #333333;
-    height: 68px;
-    width: 216px;
-    left: 740px;
-    top: 663px;
-    border-radius: 0px;
-    cursor: pointer;
-    margin-left: 100px;
-  }
-  footer p {
-    margin-top: 100px;
-    text-align: center;
+p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: -0.035em;
+  text-align: left;
+  color: #4f4f4f;
+  height: 81px;
+  width: 328px;
+  margin-top: 30px;
 }
-  /* media query */
-  
+
+/* Button */
+.btn {
+  font-family: "space mono";
+  background-color: #333333;
+  height: 68px;
+  width: 216px;
+  left: 740px;
+  top: 663px;
+  border-radius: 0px;
+  cursor: pointer;
+  margin-top: 66px;
+}
+footer p {
+  height: 17px;
+  width: 287px;
+  border-radius: 0px;
+  font-family: "Montserrat";
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 17px;
+  letter-spacing: 0em;
+  text-align: center;
+  margin: auto;
+}
+/* media query */
+
 @media (min-width: 375px) {
-  .wrapper {
-    flex-direction: row;
-  }
+.wrapper {
+  flex-direction: row;
+}
 
-  img {
-    height: 447.4263916015625px;
-    width: 539.2236938476562px;
-    left: 77px;
-    top: 265px;
-    border-radius: 0px;  
-  }
+img {
+  height: 447.4263916015625px;
+  width: 539.2236938476562px;
+  border-radius: 0px;  
+}
 
-  h1 {
-    width: 586px;
-    height: 190px;
-    font-size: 64px;
-    line-height: 95px;
-    letter-spacing: -0.035
-  }
+h1 {
+  width: 586px;
+  height: 190px;
+  font-size: 64px;
+  line-height: 95px;
+  letter-spacing: -0.035;
+}
 
-  p {
-    height: 108px;
-    width: 381px;
-    font-size: 24px;
-    line-height: 36px;
-    letter-spacing: -0.035em;
-    text-align: left;
+p {
+  height: 108px;
+  width: 381px;
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: -0.035em;
+  text-align: left;
 
-  }
+}
 
-  footer p {
-    margin-top: 100px;
+footer p {
+  margin-top: 100px;
 }
 }
