@@ -87,18 +87,20 @@ body {
   }
 
   h1 {
-     height: 190px;
     width: 586px;
-    left: 735px;
-    top: 265px;
+    height: 190px;
+    font-size: 64px;
+    line-height: 95px;
+    letter-spacing: -0.035
   }
 
   p {
-     height: 108px;
-     width: 381px;
-     left: 736px;
-     top: 491px;
-     border-radius: 0px;
+    height: 108px;
+    width: 381px;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: -0.035em;
+    text-align: left;
 
   }
 
