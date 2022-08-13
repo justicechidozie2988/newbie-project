@@ -5,7 +5,7 @@
 }
 
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: "space mono", sans-serif;
   background-color: #FFFFFF;
 }
 
@@ -45,7 +45,7 @@ h1 {
 
 /* paragraph */
 p {
-  font-size: 14px;
+  font-size: 18px;
   font-weight: 400;
   line-height: 27px;
   letter-spacing: -0.035em;
